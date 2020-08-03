@@ -1,0 +1,10 @@
+- name: Instacart Product Recommendation Algorithm
+  description: Built a machine learning based product recommendation algorithm for Instacart's "Buy it Again" feature.
+  used:
+    - thing: Python
+
+- name: Fannie Mae Data Visualization
+  description: Recommended why manufactured houses are affordable housing options using data visualizations and leveraging Fannie Mae's data apis.
+  used:
+    - thing: Tableau
+    - thing: Python
