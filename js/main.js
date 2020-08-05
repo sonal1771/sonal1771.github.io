@@ -6,6 +6,7 @@ $(function() {
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
 
+  body.classList.add('menu');
   if (night) {
     input.checked = true;
     body.classList.add('night');
