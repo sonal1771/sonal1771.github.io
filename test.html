@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-       hello Ji
-    </head>
-        <section class="section books-reco">
-			<div class="section__title">PM Book Recommendations</div>
-			<div class="section__content">
-			{% for book in site.data.books-reco %}
-			<div class="book">
-			<div class="book__name">
-				<a href="{{book.url}}" target="_blank" class="arrow-link">{{book.name}}</a>
-			</div>
-			<p>{{book.description}}</p>
-			</div>
-			{% endfor %}
-			</div>
-		</section>
-</html>
+---
+layout: default
+---
+
+<div id="site">\
+  {% include books-reco.html %}
+</div>
