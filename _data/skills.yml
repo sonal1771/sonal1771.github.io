@@ -3,6 +3,11 @@ languages:
   - item: Python
   - item: SQL
 
+tools:
+  - item: Tableau
+  - item: Google Analytics (Beginner)
+  - item: Excel
+
 design:
   - item: Sketch
   - item: Balsamiq
